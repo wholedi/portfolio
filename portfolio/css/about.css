@@ -1,0 +1,146 @@
+.aboutMe,
+.skills{
+    margin-bottom: 200px;
+}
+
+.title {
+    font-size: var(--text-size-4xl);
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+
+.title span {
+    color: var(--color-primary);
+}
+
+.aboutMe__block-header > *:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.info {
+    font-size: var(--text-size-xxl);
+    max-width: 600px;
+    line-height: 1.2;
+}
+
+.info span {
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+
+.info > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.aboutMe__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card-footer {
+    font-family: var(--courier);
+    padding: 32px 61px 21px 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 6px;
+    background: var(--color-accent);
+    gap: 20px;
+    box-shadow: 0 4px 10px 5px var(--color-shadow);
+}
+
+.card-footer__title {
+    font-size: var(--text-size-xxl);
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.card-footer__subtitle {
+    font-size: var(--text-size-xl);
+    color: var(--color-secondary);
+}
+
+.aboutMe__block-footer {
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+.aboutMe__block-footer > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.card-footer__block-title > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.skills__left-part > *:not(:last-child),
+.skills__right-part > *:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.skills__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.skills__icon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.skills__icon img {
+    max-width: 100%;
+    aspect-ratio: 120/120;
+    object-fit: cover;
+}
+
+.info--text-right p {
+    text-align: right;
+}
+
+.list {
+    text-align: center;
+}
+
+.list__block > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.list__item {
+    width: fit-content;
+}
+
+.list__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .aboutMe {
+        margin-bottom: 100px;
+    }
+
+    .aboutMe__container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-footer {
+        padding: 30px 20px;
+    }
+
+    .card-footer__title {
+        font-size: var(--text-size-3xl);
+    }
+
+}

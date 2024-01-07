@@ -1,0 +1,22 @@
+:root {
+    --color-primary: rgba(255, 255, 255, 1);
+    --color-secondary: rgba(112, 255, 0, 1);
+    --color-accent: rgba(79, 79, 79, 1);
+    --color-info: rgba(130, 130, 130, 1);
+    --color-shadow: rgba(0, 0, 0, 0.25);
+    --color-menu: rgba(0, 0, 0, 0.92);
+    --bacground-dark: linear-gradient(130deg, #000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+
+    --roboto: 'Roboto', sans-serif;
+    --courier: 'Courier Prime', monospace;
+
+    --text-size-s: 14px;
+    --text-size-m: 18px;
+    --text-size-l: 22px;
+    --text-size-xl: 26px;
+    --text-size-xxl: 30px;
+    --text-size-3xl: 40px;
+    --text-size-4xl: 50px;
+    --text-size-5xl: 70px;
+    --text-size-6xl: 80px;
+}

@@ -1,0 +1,23 @@
+body {
+    color: var(--color-primary);
+    font-family: var(--roboto);
+}
+
+[class*="__container"] {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+
+    display: flex;
+    flex-direction: column;
+    background: var(--bacground-dark);
+}
+
+.wrapper > main {
+    flex-grow: 1;
+}
