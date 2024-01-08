@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/about-skills.css">
+    <link rel="stylesheet" href="css/project.css">
 </head>
 <body>
 <div class="wrapper">
@@ -26,7 +27,7 @@
                             <a class="menu__link" href="#aboutMe">About</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Skills</a>
+                            <a class="menu__link" href="#skills">Skills</a>
                         </li>
                         <li class="menu__item">
                             <a class="menu__link" href="#">Projects</a>
@@ -139,7 +140,7 @@
             </div>
         </section>
         <section class="main__skills skills">
-            <div class="skills__container">
+            <div id="skills" class="skills__container">
                 <div class="skills__left-part">
                     <h2 class="title">skills<span>( )</span></h2>
                     <div class="info">
@@ -168,6 +169,34 @@
                         <img src="img/skills/css.svg" alt="css-logo">
                         <img src="img/skills/js.svg" alt="js-logo">
                         <img src="img/skills/github.svg" alt="github-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__project project">
+            <div class="project__container">
+                <h2 class="title title--mb">projects<span>( )</span></h2>
+                <div class="project__body">
+                    <div class="project__card">
+                        <a href="https://wholedi.github.io/Pretty_Stones/pretty_stones/" target="_blank">
+                            <img class="project__img-card" src="img/project/pretty-stones.jpg" alt="pretty-stones">
+                            <div class="project__content-card card-content">
+                                <h3 class="card-content__title">Pretty Stones</h3>
+                                <div class="card-content__info">
+                                    <p>is an elegant and stylish platform for purchasing jewelry. With its help, users
+                                        can easily and conveniently view a wide range of gemstones and precious metals
+                                        presented in various jewelry: rings, necklaces, bracelets and earrings.</p>
+                                </div>
+                                <div class="card-content__tech">
+                                    <p>Tech stack:<span> HTML, CSS, JavaScript</span></p>
+                                </div>
+                                <a target="_blank" class="card-content__code"
+                                   href="https://github.com/wholedi/Pretty_Stones">
+                                    <img class="card-content__img" src="img/project/github.svg" alt="github-logo">
+                                    View Code
+                                </a>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
