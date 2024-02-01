@@ -1,4 +1,4 @@
-.header {
+.header{
     border-bottom: 1px solid var(--color-primary);
 }
 
@@ -118,6 +118,7 @@
         position: relative;
         z-index: 100;
     }
+
     .menu__body {
         position: fixed;
         top: 0;
@@ -166,7 +167,7 @@
         width: 30px;
         height: 18px;
         position: relative;
-        z-index: 10;
+        z-index: 100;
     }
 
     .icon-menu::before,

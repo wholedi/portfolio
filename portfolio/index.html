@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/about-skills.css">
     <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 <div class="wrapper">
@@ -30,14 +31,14 @@
                             <a class="menu__link" href="#skills">Skills</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Projects</a>
+                            <a class="menu__link" href="#project">Projects</a>
                         </li>
                     </ul>
                 </div>
             </nav>
             <div class="contacts">
-                <div class="contacts__body">
-                    <ul class="contacts__list">
+                <div class="contacts__body contacts__body">
+                    <ul class="contacts__list contacts__list">
                         <li class="contacts__item">
                             <a class="contacts__link" target="_blank"
                                href="https://www.linkedin.com/in/diana-bilohur-421855289/">
@@ -174,7 +175,7 @@
             </div>
         </section>
         <section class="main__project project">
-            <div class="project__container">
+            <div id="project" class="project__container">
                 <h2 class="title title--mb">projects<span>( )</span></h2>
                 <div class="project__body">
                     <div class="project__card">
@@ -198,10 +199,102 @@
                             </div>
                         </a>
                     </div>
+                    <div class="project__card">
+                        <a href="https://wholedi.github.io/FarmVest/" target="_blank">
+                            <img class="project__img-card" src="img/project/farmvest.jpg" alt="farmvest">
+                            <div class="project__content-card card-content">
+                                <h3 class="card-content__title">FarmVest</h3>
+                                <div class="card-content__info">
+                                    <p>Project "FarmWest" is a development of
+                                        the versatility of HTML, CSS and
+                                        JavaScript technologies. This web
+                                        project of creations with the method of
+                                        providing information about investment
+                                        opportunities and helping investors
+                                        make decisions.</p>
+                                </div>
+                                <div class="card-content__tech">
+                                    <p>Tech stack:<span> HTML, CSS, JavaScript</span></p>
+                                </div>
+                                <a target="_blank" class="card-content__code"
+                                   href="https://github.com/wholedi/FarmVest">
+                                    <img class="card-content__img" src="img/project/github.svg" alt="github-logo">
+                                    View Code
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project__card">
+                        <a href="https://wholedi.github.io/Go_Corona/" target="_blank">
+                            <img class="project__img-card" src="img/project/go-corona.jpg" alt="go-corona">
+                            <div class="project__content-card card-content">
+                                <h3 class="card-content__title">GoCorona</h3>
+                                <div class="card-content__info">
+                                    <p>Landing Page applications where users can get advice from experienced specialists
+                                        on issues related to coronavirus infection. This application provides quick and
+                                        convenient access to qualified medical advice via chat or video call.</p>
+                                </div>
+                                <div class="card-content__tech">
+                                    <p>Tech stack:<span> HTML, CSS</span></p>
+                                </div>
+                                <a target="_blank" class="card-content__code"
+                                   href="https://github.com/wholedi/Go_Corona">
+                                    <img class="card-content__img" src="img/project/github.svg" alt="github-logo">
+                                    View Code
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project__card">
+                        <a href="https://wholedi.github.io/WhiteCollar/whiteCollar/" target="_blank">
+                            <img class="project__img-card" src="img/project/white-collar.jpg" alt="white-collar">
+                            <div class="project__content-card card-content">
+                                <h3 class="card-content__title">WhiteCollar</h3>
+                                <div class="card-content__info">
+                                    <p>WhiteCollar is a consulting agency specializing in providing high quality
+                                        business consulting services. With a focus on strategic and operational
+                                        consulting, they help companies develop their potential, optimize processes and
+                                        achieve their goals.</p>
+                                </div>
+                                <div class="card-content__tech">
+                                    <p>Tech stack:<span> HTML, SCSS</span></p>
+                                </div>
+                                <a target="_blank" class="card-content__code"
+                                   href="https://github.com/wholedi/WhiteCollar">
+                                    <img class="card-content__img" src="img/project/github.svg" alt="github-logo">
+                                    View Code
+                                </a>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__label">Created by <span>Di</span></p>
+            <div class="social">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a target="_blank" href="https://www.linkedin.com/in/diana-bilohur-421855289/"
+                           class="social__link">
+                            <img class="social__img" src="img/header/linkedin.svg" alt="logo-Linkedin">
+                        </a></li>
+                    <li class="social__item">
+                        <a target="_blank" href="https://github.com/wholedi"
+                           class="social__link">
+                            <img class="social__img" src="img/header/github.svg" alt="logo-github">
+                        </a></li>
+                    <li class="social__item">
+                        <a target="_blank" href="mailto:dianabilohur@gmail.com"
+                           class="social__link">
+                            <img class="social__img social__img--email" src="img/header/email.svg" alt="logo-email">
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </div>
 <script src="js/script.js"></script>
 </body>
