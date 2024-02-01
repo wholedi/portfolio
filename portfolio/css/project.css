@@ -11,7 +11,7 @@
 .project__card {
     position: relative;
     border-radius: 20px;
-    background-color: #363636;
+    background-color: var(--bg-card);
     box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.30);
     transition: all 0.3s ease-in-out;
 }
@@ -33,7 +33,7 @@
 .card-content {
     padding: 27px 31px;
     font-size: var(--text-size-m);
-    color: rgba(204, 204, 204, 1);
+    color: var(--color-card);
 }
 
 .card-content h3 {
@@ -82,7 +82,6 @@
 }
 
 
-
 @media (any-hover: hover) {
     .project__card:hover .card-content__code {
         color: var(--color-secondary);
@@ -92,7 +91,7 @@
 @media (any-hover: hover) {
     .project__card:hover {
         transform: translateY(-10px);
-        box-shadow: 2px 2px 100px 0 rgba(112, 255, 0, .6);
+        box-shadow: 2px 2px 100px 0 var(--box-sfadow-green);
     }
 }
 
@@ -113,4 +112,6 @@
         grid-template-columns: 1fr;
     }
 }
+
+
 

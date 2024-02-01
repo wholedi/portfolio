@@ -130,9 +130,6 @@ main > *:not(:last-child) {
 }
 
 @media (max-width: 991px) {
-    .hero {
-        padding: 100px 0;
-    }
 
     .hero__container {
         flex-direction: column;
