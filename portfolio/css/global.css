@@ -22,3 +22,12 @@ body {
     flex-grow: 1;
 }
 
+main > *:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.aboutMe__container,
+.skills__container,
+.project__container {
+    padding-top: 150px;
+}

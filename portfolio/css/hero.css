@@ -3,10 +3,6 @@
     flex-direction: column;
 }
 
-main > *:not(:last-child) {
-    margin-bottom: 200px;
-}
-
 .hero {
     padding-top: 200px;
     flex-grow: 1;
