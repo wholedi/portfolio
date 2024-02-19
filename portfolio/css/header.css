@@ -1,4 +1,4 @@
-.header{
+.header {
     border-bottom: 1px solid var(--color-primary);
     position: fixed;
     width: 100%;
@@ -59,15 +59,15 @@
     transition: all 0.3s;
 }
 
-.list__block li:nth-child(2)::after{
+.list__block li:nth-child(2)::after {
     transition: all 0.5s;
 }
 
-.list__block li:nth-child(3)::after{
+.list__block li:nth-child(3)::after {
     transition: all 0.7s;
 }
 
-.list__block li:nth-child(4)::after{
+.list__block li:nth-child(4)::after {
     transition: all 0.9s;
 }
 
@@ -104,8 +104,7 @@
 }
 
 @media (any-hover: hover) {
-    .menu__link:hover::after,
-    .skills__container:hover .list__block li::after {
+    .menu__link:hover::after {
         left: 0;
         width: 100%;
     }
