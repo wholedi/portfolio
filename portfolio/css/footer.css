@@ -43,3 +43,10 @@
         transform: scale(1.2);
     }
 }
+
+@media (max-width: 600px) {
+    .footer__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

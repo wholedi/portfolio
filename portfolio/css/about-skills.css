@@ -1,3 +1,8 @@
+.aboutMe,
+.skills {
+    position: relative;
+}
+
 .title {
     font-size: var(--text-size-4xl);
     color: var(--color-secondary);
@@ -21,6 +26,16 @@
 .info span {
     color: var(--color-secondary);
     font-weight: 700;
+}
+
+.decor-round--bottom {
+    top: 0;
+    left: -200px;
+}
+
+.decor-round--right-bottom {
+    bottom: -200px;
+    right: -200px;
 }
 
 .info > *:not(:last-child) {
