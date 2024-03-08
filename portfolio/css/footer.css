@@ -5,7 +5,9 @@
 .footer__container {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
+    padding: 10px 15px;
     min-height: 100px;
 }
 
